@@ -11,7 +11,7 @@ N_t=Lstep/tstep;
 %N=time/tstep;           % total number of time step
 %rng('shuffle');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-rw=1/(c0*lampda);                     %%reward factor
+rw=c0*lampda;                     %%reward factor
 epsilon =.1;              %%epsilon greedy policy
 d=1;imat=zeros(1,1);      %%used in epsisode learning
 r0 = [30;-30].*ro;                 %%starting postion 
